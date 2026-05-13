@@ -1,0 +1,8 @@
+services:
+  crewai:
+    build: .
+    ports:
+      - "${A2A_PORT:-5000}:5000"
+    env_file: .env
+    environment:
+      A2A_PORT: "5000"

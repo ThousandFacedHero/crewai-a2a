@@ -1,0 +1,16 @@
+research:
+  description: >
+    Research the following topic thoroughly: {topic}
+
+    Break this into sub-questions, investigate each one, and compile
+    your findings. If any sub-topic needs data analysis or enrichment,
+    delegate that to the external analysis service.
+  expected_output: "Detailed research findings with sources and key insights"
+
+write_report:
+  description: >
+    Using the research findings provided, write a structured report on: {topic}
+
+    The report should have: an executive summary, key findings organized
+    by theme, and a conclusion with recommendations.
+  expected_output: "A structured report in markdown format with sections"
